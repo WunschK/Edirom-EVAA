@@ -1,0 +1,1020 @@
+<?xml-model href="../../../customization/schema_quellentexte/religionsfrieden-quellentexte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="pa000008-0108">
+        
+        
+        <teiHeader>      
+                <fileDesc>         
+                        <titleStmt>
+                                <title level="s">Europäische Religionsfrieden Digital</title>
+                                <title level="a">Wormser Edikt (8. / 26. Mai 1521) - Deutscher Text</title>
+                                 
+                                
+                                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-1696-925X"><persName>Corinna Ehlers</persName></editor> 
+                                <respStmt><resp ref="http://id.loc.gov/vocabulary/relators/mrk">Mitarbeit</resp><persName>Kevin Wunsch</persName><persName>Silke Kalmer</persName></respStmt>           
+                        </titleStmt>      
+                        <editionStmt>
+                                <edition>Digitale Edition gemäß <ref target="http://www.tei-c.org/">TEI P5</ref></edition>
+                                <funder>Akademie der Wissenschaften und der Literatur Mainz</funder><principal>Unter der Leitung von Irene Dingel und Thomas Stäcker</principal>
+                        </editionStmt>         
+                        <publicationStmt>
+                                <publisher>
+                                        <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                                </publisher>           
+                                <distributor>
+                                        <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                                        <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                                </distributor>
+                                <date when="2013-10-17" type="issued">2013</date>
+                                <availability>
+                                        <licence target="https://creativecommons.org/licenses/by/4.0/">
+                                                <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                                        </licence>
+                                </availability>
+                        </publicationStmt>        
+                        <sourceDesc><p>Textgrundlage s. ggf. Einleitung.</p></sourceDesc>
+                </fileDesc>      
+                <encodingDesc>         
+                        <projectDesc>
+                                <p><ref target="https://eured.de">Europäische Religionsfrieden Digital</ref></p>
+                        </projectDesc>
+                        <classDecl>
+                                <taxonomy xml:id="marcrelator">
+                                        <bibl><idno type="URI">http://id.loc.gov/vocabulary/relators/</idno> MARC Code List for Relators </bibl>
+                                </taxonomy>
+                        </classDecl>         
+                </encodingDesc>      
+                <profileDesc>         
+                        <langUsage>
+                                <language ident="deu">Deutsch</language><!-- Sprache hinzufügen -->
+                        </langUsage>         
+                </profileDesc>      
+                <!--<revisionDesc><change/></revisionDesc>-->   
+        </teiHeader><standOff><listPerson><person xml:id="karl_v">
+                    <persName ref="http://d-nb.info/gnd/118560093">
+                        <forename>Karl V.</forename>
+                        <roleName>Kaiser</roleName>
+                    </persName>
+                    <note>Kaiser des <rs type="place" ref="#heiliges_roemisches_reich">Heiligen
+                            Römischen Reichs</rs>.</note>
+                </person><person xml:id="luther_martin">
+                    <persName ref="http://d-nb.info/gnd/118575449">
+                        <forename>Martin</forename>
+                        <surname>Luther</surname>
+                    </persName>
+                </person><person xml:id="leo_x">
+                    <persName ref="http://d-nb.info/gnd/118640437">
+                        <forename>Leo X.</forename>
+                        <roleName>Papst</roleName>
+                    </persName>
+                    <note>Medici, Giovanni de'</note>
+                </person><person xml:id="aleander_hieronymus">
+                    <!-- neu in EuReD -->
+                    <persName ref="http://d-nb.info/gnd/118647911">
+                        <forename>Hieronymus</forename>
+                        <surname>Aleander</surname>
+                    </persName>
+                </person><person xml:id="hus_jan">
+                    <persName ref="http://d-nb.info/gnd/118554948">
+                        <forename>Jan</forename>
+                        <surname>Hus</surname>
+                    </persName>
+                    <note>Tschechischer Theologe</note>
+                </person><person xml:id="sigismund">
+                    <persName ref="http://d-nb.info/gnd/118614185">
+                        <forename>Sigismund</forename>
+                        <roleName>Kaiser</roleName>
+                    </persName>
+                    <note>Kaiser des <rs type="place" ref="#heiliges_roemisches_reich">Heiligen
+                            Römischen Reichs</rs>.</note>
+                </person><person xml:id="richard_trier">
+                    <persName ref="http://d-nb.info/gnd/11901954X">
+                        <forename>Richard</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Greiffenklau-Vollrads</surname>
+                    </persName>
+                    <note>Erzbischof Richard von <rs type="place" ref="#trier_kurfuerstentum">Trier</rs></note>
+                </person><person xml:id="peutinger_konrad">
+                    <!-- neu in EuReD -->
+                    <persName ref="http://d-nb.info/gnd/118740652">
+                        <forename>Konrad</forename>
+                        <surname>Peutinger</surname>
+                    </persName>
+                    <note>Humanist, Vertreter Augsburgs beim Wormser Reichstag 1521</note>
+                </person><person xml:id="vehus_hieronymus">
+                    <!-- neu in EuReD -->
+                    <persName ref="http://d-nb.info/gnd/118626388">
+                        <surname>Vehus</surname>
+                        <forename>Hieronymus</forename>
+                    </persName>
+                    <note>Kanzler des Markgrafen von Baden</note>
+                </person></listPerson><listPlace><place xml:id="heiliges_roemisches_reich">
+                    <placeName ref="http://d-nb.info/gnd/2035457-5">Heiliges Römisches Reich
+                        Deutscher Nation</placeName>
+                    <!-- dnb link geprüft, BM, 18.1.2021 -->
+                </place><place xml:id="trier_kurfuerstentum">
+                    <placeName ref="http://d-nb.info/gnd/4060882-7">Trier, Kurfürstentum
+                        (Erzstift)</placeName>
+                    <!-- dnb link geprüft, BM, 20.1.2021 -->
+                </place><place xml:id="spanien_koenigreich">
+                    <placeName>Spanien, Königreich</placeName>
+                    <!-- dnb link entfernt, kein passender vorhanden, BM, 1.3.2021 -->
+                    <!-- Erläuterung nötig? -->
+                </place><place xml:id="sizilien_koenigreich">
+                    <placeName>Sizilien, Königreich</placeName>
+                    <note>Das Königreich Sizilien bestand aus der Insel Sizilien sowie dem
+                        Königreich Neapel und gehörte zum Besitz der spanischen Habsburger.</note>
+                    <!-- dnb link entfernt, kein passender vorhanden, note ergänzt, BM, 1.3.2021 -->
+                </place><place xml:id="jerusalem_koenigreich">
+                    <placeName ref="http://d-nb.info/gnd/4028588-1">Jerusalem,
+                        Königreich</placeName>
+                    <!-- dnb link geprüft, BM, 19.1.2021 -->
+                </place><place xml:id="ungarn_koenigreich">
+                    <placeName ref="http://d-nb.info/gnd/4078541-5">Ungarn, Königreich</placeName>
+                    <!-- dnb link geprüft, BM, 20.1.2021 -->
+                </place><place xml:id="dalmatien">
+                    <placeName>Dalmatien, Region</placeName>
+                </place><place xml:id="kroatien_koenigreich">
+                    <placeName ref="http://d-nb.info/gnd/4073841-3">Kroatien-Slawonien,
+                        Königreich</placeName>
+                    <!-- dnb Link überprüft, BM, 19.1.2021 -->
+                </place><place xml:id="oesterreich_erzherzogtum">
+                    <placeName ref="http://d-nb.info/gnd/4075601-4">Österreich,
+                        Erzherzogtum</placeName>
+                    <!-- dnb link geprüft, BM, 20.1.2021 -->
+                </place><place xml:id="burgund_herzogtum">
+                    <placeName ref="http://d-nb.info/gnd/4009139-9">Burgund, Herzogtum</placeName>
+                    <!-- dnb link geprüft, BM, 14.1.2021 -->
+                </place><place xml:id="habsburg_grafschaft">
+                    <placeName ref="http://d-nb.info/gnd/4844433-9">Habsburg, Grafschaft</placeName>
+                    <!-- dnb link geprüft, BM, 18.1.2021 -->
+                </place><place xml:id="flandern_grafschaft">
+                    <placeName ref="http://d-nb.info/gnd/4071249-7">Flandern, Grafschaft</placeName>
+                    <!-- dnb link geprüft, BM, 15.1.2021 -->
+                </place><place xml:id="tirol_grafschaft">
+                    <placeName ref="http://d-nb.info/gnd/4060207-2">Tirol, Grafschaft</placeName>
+                    <!-- dnb link geprüft, BM, 20.1.2021 -->
+                </place><place xml:id="koeln_kurfuerstentum">
+                    <placeName ref="http://d-nb.info/gnd/4031485-6">Köln, Kurfürstentum
+                        (Erzstift)</placeName>
+                    <!-- dnb Link geprüft, BM, 19.1.2021 -->
+                </place><place xml:id="mainz_kurfuerstentum">
+                    <placeName ref="http://d-nb.info/gnd/4100026-2">Mainz, Kurfürstentum
+                        (Erzstift)</placeName>
+                    <!-- dnb link geprüft, BM, 19.1.2021 -->
+                </place><place xml:id="luettich_hochstift">
+                    <placeName ref="http://d-nb.info/gnd/4275450-1">Lüttich, Hochstift</placeName>
+                    <!-- dnb link geprüft, BM, 19.1.2021 -->
+                </place><place xml:id="boehmen_koenigreich">
+                    <placeName ref="http://d-nb.info/gnd/63739-7">Böhmen, Königreich</placeName>
+                    <!-- dnb link geprüft, BM, 14.1.2021 -->
+                </place><place xml:id="konstanz">
+                    <placeName ref="http://www.geonames.org/2885679/konstanz.html">Konstanz,
+                        Stadt</placeName>
+                </place><place xml:id="worms">
+                    <placeName ref="http://www.geonames.org/2806142/worms.html">Worms,
+                        Stadt</placeName>
+                </place></listPlace></standOff>
+            <facsimile>
+                <surface xml:id="bsb00056424_005"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00005/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_006"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00006/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_007"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00007/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_008"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00008/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_009"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00009/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_010"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00010/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_011"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00011/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_012"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00012/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_013"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00013/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_014"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00014/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_015"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00015/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_016"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00016/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_017"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00017/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_018"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00018/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_019"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00019/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_020"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00020/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_021"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00021/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_022"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00022/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_023"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00023/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_024"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00024/full/full/0/default.jpg"/></surface>
+                <surface xml:id="bsb00056424_025"><graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00056424_00025/full/full/0/default.jpg"/></surface>
+            </facsimile>
+<!--        <facsimile>
+                <surface xml:id="bsb00056424_005"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_5"/></surface>
+                <surface xml:id="bsb00056424_006"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_6"/></surface>
+                <surface xml:id="bsb00056424_007"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_7"/></surface>
+                <surface xml:id="bsb00056424_008"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_8"/></surface>
+                <surface xml:id="bsb00056424_009"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_9"/></surface>
+                <surface xml:id="bsb00056424_010"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_10"/></surface>
+                <surface xml:id="bsb00056424_011"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_11"/></surface>
+                <surface xml:id="bsb00056424_012"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_12"/></surface>
+                <surface xml:id="bsb00056424_013"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_13"/></surface>
+                <surface xml:id="bsb00056424_014"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_14"/></surface>
+                <surface xml:id="bsb00056424_015"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_15"/></surface>
+                <surface xml:id="bsb00056424_016"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_16"/></surface>
+                <surface xml:id="bsb00056424_017"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_17"/></surface>
+                <surface xml:id="bsb00056424_018"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_18"/></surface>
+                <surface xml:id="bsb00056424_019"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_19"/></surface>
+                <surface xml:id="bsb00056424_020"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_20"/></surface>
+                <surface xml:id="bsb00056424_021"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_21"/></surface>
+                <surface xml:id="bsb00056424_022"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_22"/></surface>
+                <surface xml:id="bsb00056424_023"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_23"/></surface>
+                <surface xml:id="bsb00056424_024"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_24"/></surface>
+                <surface xml:id="bsb00056424_025"><graphic url="https://daten.digitale-sammlungen.de/bsb00056424/image_25"/></surface>
+        </facsimile>-->
+<text>
+<body> 
+<div>
+<div xml:id="titel">
+<p>
+        <lb/><pb n="A1r" facs="#bsb00056424_005"/>Der <rs type="person" ref="#karl_v">Römischen <w>Kaiser
+        <pc>-</pc><lb/>lichnn</w> Majestat</rs> Edict wider
+        <lb/><rs type="person" ref="#luther_martin">Martin Luther</rs> Bücher
+        <lb/>und lere, seyne <w>anhen
+        <pc>-</pc><lb/>ger</w>, Enthalter<note type="annotation">Beschützer.</note> und
+        <lb/>nachvolger<note type="annotation">Anhänger.</note> unnd
+        <lb/>Etlich annder
+        <lb/>schmeliche <w>sch
+        <pc>-</pc><lb/>rifften</w>. Auch
+        <lb/>Gesetz der
+        <lb/><w>Drucke
+        <pc>-</pc><lb/>rey</w>.
+</p>
+
+<p>
+<space dim="vertical"/><pb n="A1v leer" facs="#bsb00056424_006"/>
+</p>
+
+</div>
+        
+<div>
+<p>
+        <lb/><pb n="A2r" facs="#bsb00056424_007"/>WJr <rs type="person" ref="#karl_v">Karl Der Fünfft</rs> von gotes gnaden
+        <lb/>Erwelter Römischer Kayser,
+        <lb/>zu allentzeiten Merer des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs> etc. in <w>Germa
+        <pc>-</pc><lb/>nien</w>, zu <rs type="place" ref="#spanien_koenigreich">Hispanien</rs>, bayder <rs type="place" ref="#sizilien_koenigreich">Sicilien</rs>, <rs type="place" ref="#jerusalem_koenigreich">Jherusalem</rs>,
+        <lb/><rs type="place" ref="#ungarn_koenigreich">Hungern</rs>, <rs type="place" ref="#dalmatien">Dalmacien</rs>, <rs type="place" ref="#kroatien_koenigreich">Croacien</rs> etc. Künig, Ertzhertzog
+        <lb/>zu <rs type="place" ref="#oesterreich_erzherzogtum">Osterreich</rs>, Hertzog zu <rs type="place" ref="#burgund_herzogtum">Burgundi</rs> etc, Graff zu <rs type="place" ref="#habsburg_grafschaft">Habsburg</rs>,
+        <lb/><rs type="place" ref="#flandern_grafschaft">Flandern</rs> und <rs type="place" ref="#tirol_grafschaft">Tyrol</rs> etc.,
+        <lb/>Embieten allen und <w>yegli
+        <pc>-</pc><lb/>chen</w> Churfürsten, Fürsten, Gaistlichen und weltlichen <w>Pre
+        <pc>-</pc><lb/>laten</w>, Graven, Freyen Herren, Rittern, knechten, <w>Hauptleü
+        <pc>-</pc><lb/>ten</w>, Landtvögten, Vitzthumben<note type="annotation">Vertretern, Statthaltern (von Fürsten).</note>, Vögten, Phlegern<note type="annotation">Verwaltern (eines Herrschaftsgebiets).</note>, <w>Ver
+        <pc>-</pc><lb/>wesern</w><note type="annotation">Verwaltern, Stellvertretern (eines Herrschers).</note>, Landtrichtern, Schultheissen<note type="annotation">Orts- oder Dorfrichtern.</note>, Schöffen, <w>Burger
+        <pc>-</pc><lb/>maistern</w>, Richtern, Reten, Burgern und gemeinden, Auch
+        <lb/>Rectorn und Regenten<note type="annotation">Professoren.</note> aller gemeinen<note type="annotation">öffentlichen.</note> Universitetten und
+        <lb/>sonst allen andern unsern und des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs>, auch unser <w>erbli
+        <pc>-</pc><lb/>chen</w> Fürstenthumb und Lande underthanen und getreuen,
+        <lb/>in was wirden, stats, oder wesens die sein, den diser unser 
+        <lb/>Kaiserlicher brief oder glaublich abschrifft, die durch eynen
+        <lb/>Gaistlichen Prelaten oder offenbarn Notarii verfertigt ist,
+        <lb/>davon fürkumbt oder gezeigt wirdet, unser gnad und alles
+        <lb/>gut. Hochwirdigen und Erwirdigen, Hochgebornen, <w>Wolge
+        <pc>-</pc><lb/>bornen</w> Ersamen und Edlen, lieb Freünd, Neven, Oheimen,
+        <lb/>Churfürsten, Fürsten,<note type="crit_app">Korrigiert aus: Fünsten.</note> Andechtigen und getreuen: <w>Nach
+        <pc>-</pc><lb/>dem</w> unserm Römischen Kaiserlichen ambt zusteet, nit allein
+        <lb/>den gezirckh des <rs type="place" ref="#heiliges_roemisches_reich">heiligen Römischen Reichs</rs>, so unser forfarn
+        <lb/>der Deütschnn nation umm der heiligen Römischen und <w>gemei
+        <pc>-</pc><lb/>ner</w><note type="annotation">allgemeiner.</note> kirchen beschirmung willen durch die Götlich gnad mit
+        <lb/>irem schweren blutvergiessen an sich bracht haben, in <w>außdil
+        <pc>-</pc><lb/>gung</w> und undertruckung der unglaubigen, zuerweitern, <w>Son
+        <pc>-</pc><lb/>der</w> auch nach der Regel, die von der heiligen Römischen <w>Kirch 
+        <pc>-</pc><lb/>en</w> bißher gehalten ist, fürsehung zuthun<note type="annotation">Vorkehrungen zu treffen, sich darum zu kümmern.</note>, das kain befleckung
+        <lb/>der ketzerey oder Arckwon<note type="annotation">Verdacht (einer solchen Ketzerei).</note> in dem <rs type="place" ref="#heiliges_roemisches_reich">Römischen Reiche</rs> unsern
+        <lb/>hayligen Glauben verunrayne, oder ob der Einiche yetz <w>an
+
+        <pc>-</pc><lb/><pb n="A2v" facs="#bsb00056424_008"/>gefangen</w> hette<note type="crit_app">Korrigiert nach Druck 2 aus: angefangnnhete.</note><!-- welche Worte hier zusammen? -->, mit allem vleys, guten mitteln und <w>beschey
+        <pc>-</pc><lb/>denheit</w>, so in solichem fürzunemen sein, außzudilgen. <w>Deß
+        <pc>-</pc><lb/>halbnn</w> bedencken wir, wo solichs ye einem unnsern vorfaren
+        <lb/>zuthun gebürt, das uns die Bürde desselb vil höher<note type="crit_app">Korrigiert nach Druck 2 aus: höhen.</note>
+        <lb/>und mer auffgelegt ist, Nach dem des Almechtigen Gotes
+        <lb/>unmeßliche gütigkayt zu beschirmung unnd merung <w>sey
+        <pc>-</pc><lb/>nes</w> hailigen Glaubens uns mit vil Künigreichen unnd
+        <lb/>Landen und merern macht dann vor manig Jaren ye <w>Ei
+        <pc>-</pc><lb/>nen</w> unsern forfarn am Reiche<note type="annotation">Gemeint ist: einen unserer Vorgänger an der Regierung.</note> fürsehen und begabt hat.
+        <lb/>Dieweyl wir auch von Vaterlichem stammen aus den
+        <lb/>Aller Christenlichsten Kaysern und Ertzhertzogen zu
+        <lb/><rs type="place" ref="#oesterreich_erzherzogtum">Osterreich</rs> und Hertzogen zu <rs type="place" ref="#burgund_herzogtum">Burgundi</rs>, und dann aus
+        <lb/>Mutterlichem stammen aus den Christglaubigisten<note type="crit_app">Korrigiert nach Druck 4 aus: Chriglaubigisten.</note> <rs type="place" ref="#spanien_koenigreich"><w>His
+        <pc>-</pc><lb/>panischen</w></rs>, <rs type="place" ref="#sizilien_koenigreich">Sicilianischen</rs> und von <rs type="place" ref="#jerusalem_koenigreich">Jerusalem</rs> Künigen
+        <lb/>Entsprungen seyn, Welcher Claren thatten gedechtnus,
+        <lb/>durch sy für den Christenlichen Glauben geübt, nymer abgeen<note type="annotation">aufhören.</note>
+        <lb/>wirde. Darumb, wo wir etliche Ketzereyen, so innerhalb <w>drey
+        <pc>-</pc><lb/>en</w> Jaren in <rs type="place" ref="#heiliges_roemisches_reich">Deütscher Nation</rs> entsprungen unnd <w>vor
+        <pc>-</pc><lb/>mals</w> durch die hayligen Concilien und der Bäbst <w>Sa
+        <pc>-</pc><lb/>tzungen</w>, mit gemayner Kirchen verwilligunng, warlich
+        <lb/>verdampt und ytz von neuem auß den hellen gezogen sein,
+        <lb/>dieffer eynwurtzeln lassen Und aus unser versaumnus
+        <lb/>verhengen und gedulden, So wurde unser gewissen <w>merck
+        <pc>-</pc><lb/>lich</w> beswert und unsers Namen Ewige glori in <w>glückse
+        <pc>-</pc><lb/>ligem</w> eingang<note type="annotation">Beginn.</note> unser Regierung mit aynem duncklen <w>Ne
+        <pc>-</pc><lb/>bel</w> umbfangen. Dieweil nu ungezweifelt Eüch allen <w>un
+        <pc>-</pc><lb/>vorborgen</w> ist, Wieweyt die Irrungen und Ketzereyen
+        <lb/>von dem Christenlichen weg ab weichen, so Eyner genant
+        <lb/><rs type="person" ref="#luther_martin">Martin Luther</rs> Augustiner Ordens in der <w>Christenlich
+        <pc>-</pc><lb/>en</w> Religion und Ordnung, sonderlich in der <w>Durchleü
+
+        <pc>-</pc><lb/><pb n="A3r" facs="#bsb00056424_009"/>chtigen</w> <rs type="place" ref="#heiliges_roemisches_reich">Deütschen Nation</rs> Als ainer unauffhörlichen
+        <lb/>zerstörerin alles unglaubens und Ketzerey, Eynzüfüren
+        <lb/>und zu beflecken understeet<note type="annotation">unternimmt.</note>, In der gestalt, wo dem <w>für
+        <pc>-</pc><lb/>derlich</w><note type="annotation">umgehend.</note> nit begegent, das dardurch dieselb gantz <rs type="place" ref="#heiliges_roemisches_reich">Deutsch
+        <lb/>Nation</rs>, und nachmals durch soliche Einwurtzlung all
+        <lb/>ander Nation, in Ein unmenschliche zertrennung und <w>Er
+        <pc>-</pc><lb/>bärmlichen</w> abfall guter Sytten, des Frydens und <w>Chri
+        <pc>-</pc><lb/>stenlichen</w> Glaubens kumen wurden. Deßhalben nit
+        <lb/>unbillich<note type="annotation">nicht zu Unrecht.</note> unser Hayliger Vatter, Babst <rs type="person" ref="#leo_x">Leo der Zehendt</rs>,
+        <lb/>der hayligen Römischen und gemaynen<note type="annotation">allgemeinen.</note> Christenlichen
+        <lb/>Kirchen Obrister Bischoff, dem die sorg und fürsehung<note type="annotation">Bewahrung, Fürsorge.</note>
+        <lb/>der sachen, so den Christenlichen Glauben antreffen<note type="annotation">betreffen.</note>, <w>son
+        <pc>-</pc><lb/>derlich</w> zusteet, bewegt worden ist, den selben <rs type="person" ref="#luther_martin">Luther</rs> <w>an
+        <pc>-</pc><lb/>fencklich</w> Vätterlich und miltigklich zuwarnen und <w>zuer
+        <pc>-</pc><lb/>manen</w>, sölicher bösen anfeng abzusteen<note type="annotation">Abstand davon zu nehmen.</note> und die <w>außge
+        <pc>-</pc><lb/>prayten</w> Irrsalen zu Revocieren<note type="annotation">zu widerrufen.</note>. Und als Er das <w>under
+        <pc>-</pc><lb/>lassen</w> und darüber Ye lenger ye bösers geübt, hat <rs type="person" ref="#leo_x">sein <w>hay
+        <pc>-</pc><lb/>ligkait</w></rs> understanden, Dagegen füglich<note type="annotation">angebrachte.</note> unnd nit
+        <lb/>ungebreüchlich mitel und weg fürzunemen. Unnd <w>dar
+        <pc>-</pc><lb/>auf</w> zu mermalen die Cardinal, Bischoff und ander <w>Pre
+        <pc>-</pc><lb/>laten</w>, Auch der Regulierten Orden<note type="annotation">Gemeint sind Orden, deren Mitglieder sich verpflichtet haben, nach einer Ordensregel zu leben.</note> Priorn und General
+        <lb/>Minister<note type="annotation">Obere, Vorsteher.</note> und vil ander Treffenlich Redlich leüt, Aller
+        <lb/>Erberkeit, Kunst und wyssenhait Erfarn, <w>Deßgleich
+        <pc>-</pc><lb/>en</w> vil ander Christenliche Nation, Doctor unnd <w>May
+        <pc>-</pc><lb/>ster</w> Erfordert unnd berüefft, Und den selben <rs type="person" ref="#luther_martin"><w>Mar
+        <pc>-</pc><lb/>tin</w> Luther</rs> dartzu Citiert. Und als Er <w>ungehorsam
+        <pc>-</pc><lb/>lich</w> außbelieben ist, all seyn schrifften, so in Latein unnd
+        <lb/>Deütsch außgegangen seyn und noch außgeen werden,
+        <lb/>als schedlich und dem Glauben unnd aynigkayt der
+
+        <lb/><pb n="A3v" facs="#bsb00056424_010"/>Kirchen gantz widerwertig verdammet und aus Bäpstlichem
+        <lb/>gewalt, mit Rat und willen der gedachten Cardinäl, <w>zeitlich
+        <pc>-</pc><lb/>er</w> erwegung,<note type="annotation">Gemeint ist: nach hinreichender Überlegung (vgl. den <ref type="quelle" target="0109#ueberlegung">lateinischen Text</ref>).</note> Bischoff, Prelaten, Doctores und Maistern <w>al
+        <pc>-</pc><lb/>lenthalben</w> zuverprennen und gentzlichen zuverdilgen <w>gebot
+        <pc>-</pc><lb/>ten</w>. Und daneben den selben <rs type="person" ref="#luther_martin">Luther</rs>, es sey dann, das er <w>inner
+        <pc>-</pc><lb/>halb</w> einer bestimpten zeit nach Eröffnung <rs type="person" ref="#leo_x">seyner haylikeit</rs>
+        <lb/>decret beweise, das er seiner Irrsal Reu, auch die <w>verwan
+        <pc>-</pc><lb/>delt</w><note type="annotation">Gemeint ist: sich bekehrt.</note> und Revociert hab, als einen Sun der ungehorsam und
+        <lb/>boßheit<note type="annotation">Vgl. 2 Thess 2,3.</note> und als einen zertrenner und Ketzer von <w>menigklich
+        <pc>-</pc><lb/>em</w><note type="annotation">jedermann.</note> zu meiden.<note type="annotation" xml:id="exsurge">Vgl. die Bannandrohungsbulle <q>Exsurge Domine</q> (15.6.1520) bei <rs type="bibl" ref="#fabisch_iserloh_dokumente_2"><surname type="editor">Fabisch / Iserloh</surname>, Dokumente 2, S. 364-411 (Nr. 41)</rs> und die Erläuterungen zu deren Entstehung <rs type="bibl" ref="#fabisch_iserloh_dokumente_2">ebd., S. 317-343</rs>.</note> Und nach satzung der Recht geordent und <w>ge
+        <pc>-</pc><lb/>setzt</w>, bey den peenen, in Bäbstlicher Bullen begriffen,<note type="annotation">Gemeint ist die Bannandrohungsbulle <q>Exsurge Domine</q> (vgl. <ref type="quelle" target="0108#exsurge">oben<ref type="print"> Anm. </ref></ref>).</note> die sein
+        <lb/>heylikeit uns als des Christenlichen glaubens waren und
+        <lb/>Obristen beschirmer Und des heilignn Bäbstlichen stuls und
+        <lb/>der Römischen und gemeinen Cristenlichen kirchen <w>Advoca
+        <pc>-</pc><lb/>ten</w> durch sein und desselben Stuls <rs type="person" ref="#aleander_hieronymus">Orator</rs> und Botschafft, so
+        <lb/>sein haylikeit deßhalben sonderlich zu uns verordent, <w>zuge
+        <pc>-</pc><lb/>sandt</w> hat, Mit beger und erforderung, unsern pflichten nach
+        <lb/>und aus Oberkeit und gerechtigkeit unsers Kayserlichen
+        <lb/>Ambts <rs type="person" ref="#leo_x">seyner haylikeit</rs> in solichem unser hilf des weltlichen
+        <lb/>Schwerts zu Rettung des Christenlichen glaubens <w>mitze
+        <pc>-</pc><lb/>taylen</w>.<note type="annotation">Gemeint ist die Sendung <rs type="person" ref="#aleander_hieronymus">Hieronymus Aleanders</rs> als Nuntius ins <rs type="place" ref="#heiliges_roemisches_reich">Reich</rs> und an den kaiserlichen Hof, wo er die Publikation und Exekution der Bulle durchsetzen sollte (vgl. <rs type="bibl" ref="#fabisch_iserloh_dokumente_2"><surname type="editor">Fabisch / Iserloh</surname>, Dokumente 2, S. 331-333</rs>).</note> Und allenthalben im <rs type="person" ref="#heiliges_roemisches_reich">hailigen Römischnn Reyche</rs>,
+        <lb/>auch, als ainem Christglaubigen Künig und Fürsten wol
+        <lb/>gezimet, in unsern Erblichen Künigreichen und <w>Fürsten
+        <pc>-</pc><lb/>thumben</w> und Landen Und sonderlich in Deütscher <w>Na
+        <pc>-</pc><lb/>tion</w> zubevelhen und zugebieten alles und yedes, so in <rs type="person" ref="#leo_x">seyner
+        <lb/>hayligkeit</rs> Bullen begriffen ist, unübertretlich zehalten
+        <lb/>Und darinn Execution<note type="annotation">Ausführung, Vollstreckung (der Bestimmungen des Edikts).</note> und volziehung zethun. Und <w>wie
+        <pc>-</pc><lb/>wol</w> wir söliche Ermanung nach uberantwortung der
+        <lb/>Bäbstlichen Bullen und zuletst die verdamnus des <rs type="person" ref="#luther_martin"><w>Lu
+        <pc>-</pc><lb/>thers</w></rs> an vil orten in Deütscher Nation verkündet, auch
+        <lb/>in unsers nydern <rs type="place" ref="#burgund_herzogtum">Burgundischen Landen</rs><!-- vgl. Latein: dort ist von Löwen die Rede, d.h. allenfalls von Brabant --> und sonderlich
+        <lb/>zu <rs type="place" ref="#koeln_kurfuerstentum">Cölln</rs>, <rs type="place" ref="#trier_kurfuerstentum">Trier</rs>, <rs type="place" ref="#mainz_kurfuerstentum">Meintz</rs> und <rs type="place" ref="#luettich_hochstift">Lüttich</rs>, zu Exequiren und
+
+        <lb/><pb n="A4r" facs="#bsb00056424_011"/>zuvolziehen gebotten haben,<note type="annotation" xml:id="mandat">Gemeint ist wohl ein auf Initiative <rs type="person" ref="#aleander_hieronymus">Aleanders</rs> zustande gekommenes Mandat <rs type="person" ref="#karl_v">Karls V.</rs> vom 28. September 1520, in dem die Beschlagnahmung und Verbrennung von Schriften <rs type="person" ref="#luther_martin">Luthers</rs> und seiner Anhänger angeordnet und das im Oktober / November nacheinander in <rs type="place" ref="#luettich_hochstift">Lüttich</rs>, <rs type="place" ref="#mainz_kurfuerstentum">Mainz</rs> und <rs type="place" ref="#kolen_kurfuerstentum">Köln</rs> in Kraft gesetzt wurde (vgl. Aleander an Leo X., o.D. [23.10.1520?], <rs type="bibl" ref="#drta_jr_2">DRTA.JR 2, S. 454-457 (Nr. 59A)</rs> und dazu <rs type="bibl" ref="#mueller_nuntiaturen"><surname type="author">Müller</surname>, Nuntiaturen, S. 226-229</rs>; <rs type="bibl" ref="#jongh_louvain"><surname type="author">Jongh</surname>, Louvain, S. 229f.</rs>)</note> So hat sich doch <rs type="person" ref="#luther_martin">Martin <w>Lu
+        <pc>-</pc><lb/>ther</w></rs> darüber nit allein nit Erkhennet, gebessert noch seyn
+        <lb/>Irrsal<note type="crit_app">Korrigiert aus: Rrrsal.</note> Revociert noch von Bäbstlicher heiligkait <w>Absolu
+        <pc>-</pc><lb/>tion</w> und widerumb in der heyligen Christenlichen kirchen
+        <lb/>gnad begert, sonder seins verkerten gemuts und verstands
+        <lb/>vil böser Frucht und würckung, wie ein wüttender, in eyn
+        <lb/>offenbare underdruckung der hailignn Kirchnn eynfallendt
+        <lb/>durch vil gehauffte Bücher, die nit allein neuer, sonder <w>vor
+        <pc>-</pc><lb/>mals</w> von den hayligen Concilien verdambten Ketzereyen
+        <lb/>und Gotslesterungn vol sein, in Lateinischer und Deütscher
+        <lb/>Sprach, aus yme selbst oder zum wenigsten under seynem
+        <lb/>Namen gemacht, teglichnn außgebreytet. Darinn er von der
+        <lb/>Heiligen kirchen, so lange jar gehalten der syben Sacramenten
+        <lb/>zal, ordnung und gebrauch, zerstöret, umbkert und verletzet,
+        <lb/>Und die unzerstörlichnn gesetz der heilignn Er in <w>wunderbar
+        <pc>-</pc><lb/>lich</w> weg<note type="annotation">auf verwunderliche Weise.</note> schentlich beflecket. Sagt auch, das die haylig
+        <lb/>Olung ein erdicht ding sey. Er will auch den brauch und der
+        <lb/>unaussprechlichen heilignn Sacraments niessung zu der <w>ver
+        <pc>-</pc><lb/>dampten</w> Beheim<note type="annotation">Gemeint sind die Anhänger von <rs type="person" ref="#hus_jan">Jan Hus</rs> in <rs type="place" ref="#boehmen_koenigreich">Böhmen</rs>.</note> gewonheit und gebrauch ziehen. Und <w>ver
+        <pc>-</pc><lb/>wickelt</w> anfencklich<note type="annotation">zuerst.</note> die Peicht, die den hertzn, so mit sünden
+        <lb/>befleckt oder beladn sein, am aller nutzparlichsten ist, <w>dermas
+        <pc>-</pc><lb/>sen</w>, daz daraus kein Fundament noch frucht mag genomen
+        <lb/>werdnn. Zum lesten droet er weiter von der Peicht <w>sovilze
+        <pc>-</pc><lb/>schreibnn</w><!-- was gehört zum Wort? -->, wo daz gestattet, das nit allein gar nyemands seyn,
+        <lb/>der aus solichnn seinen aberwitzigen schrifften nit understeen<note type="annotation">verstehen.</note>
+        <lb/>wirdet zesagen, die Peicht unfruchtbar zusein, Sunder auch
+        <lb/>wenig sein, die nit Predigen werdnn, das nit zu beichtn sey.
+        <lb/>Er haltet auch nit allain priesterlich Ampt und Orden auff
+        <lb/>das aller geringest, sonder understeet<note type="annotation">bemüht sich.</note> auch die Weltlichen
+        <lb/>Layschnn Personen zu bewegnn, Ir hende in der Priester
+        <lb/>blut zu waschnn. Und Nennet den Obristen <w>un
+        <pc>-</pc><lb/>sers</w> Christenlichnn Glaubens Priester, des hailignn Sandt
+
+
+        <lb/><pb n="A4v" facs="#bsb00056424_012"/>Petrus Sucessor und Christi waren Vicarien auff <w>Er
+        <pc>-</pc><lb/>den</w><note type="annotation">Gemeint ist der Papst.</note> mit verleümbten und schentlichen worten und <w>ver
+        <pc>-</pc><lb/>folget</w> Ine mit manichfaltigen unerhörten <w>pheyndtschriff
+        <pc>-</pc><lb/>ten</w> und Schmehungen. Er bestetiget auch aus
+        <lb/>der Haydenischen Poeten gedicht, das kayn Freyer will
+        <lb/>sey, der maynung, das alle ding in Einer gewyssen <w>Sa
+        <pc>-</pc><lb/>tzung</w> steen. Und schreybt, das die Meßhaltung
+        <lb/>nyemands zu gut kome dann dem, der sy volbring.
+        <lb/>Darzu umbkert Er den gebrauch, so mit Vasten unnd
+        <lb/>gebet von der hayligen Kirchen aufgesetzt und byßher
+        <lb/>gehalten worden ist. Sonderlich veracht Er auch
+        <lb/>der hayligen Vätter Auctoriteten, die von der Kirchen
+        <lb/>angenomen seyn. Und nymbt gäntzlichnn hynweg
+        <lb/>die gehorsam und Regierung, Und schreibt <w>bey
+        <pc>-</pc><lb/>leüfftig</w> gar nichts anders, das nit zu Auffrür, <w>zertren
+        <pc>-</pc><lb/>nung</w>, Krieg, Todtsleg, Rauberey und Prandt und zu
+        <lb/>gantzem Abfall des Christenlichen Glaubens Reich und
+        <lb/>diene.<note type="annotation">Zur Konnotation dieser Formulierung mit dem (die Reichsacht nach sich ziehenden) Tatbestand des Landfriedensbruchs vgl. <rs type="bibl" ref="#weber_reichsacht"><surname type="author">Weber</surname>, Reichsacht, S. 63</rs>.</note> Dann wie Er lernet<note type="annotation">lehrt.</note> ain Frey aygenwillig leben,
+        <lb/>das von allem gesetz ausgeschlossen<note type="crit_app">Korrigiert aus: augeschlossen.</note> und gantz Vihisch,
+        <lb/>Also ist Er ain frey aygenwillich mensch, der alle gesetz <w>ver
+        <pc>-</pc><lb/>dambt</w> und undertruckt, Wie er dann die Decreta und
+        <lb/>geystliche gesetz offenlich zuverprennen kain Entsetzung
+        <lb/>oder Scheühe gehabt hat. Und wo er das weltlich Swert
+        <lb/>nit mer dann des Babst Pann und Peene geförcht, so het
+        <lb/>Er dem weltlichen Rechten vil bösers gethan. Er
+        <lb/>schamet sich auch nicht, yetz wider die hayligen Concilen
+        <lb/>offenlich zureden <seg type="crit_app">und die</seg><note type="crit_app">Korrigiert aus: undie.</note> nach seinem willen zu smelern und
+        <lb/>zuverletzen, aus den Er sonderlich das Concili zu <rs type="place" ref="#konstanz">Costentz</rs>
+        <lb/>allenthalben mit seinem beflecten Mundt Swerlichen <w>an
+        <pc>-</pc><lb/>tastet</w> und Nennet Das der gantzen Christenlichen <w>Kirch
+        <pc>-</pc><lb/>en</w> und Deütscher Nation zu Smach und vercleinung eyn
+        <lb/>Sinagog des Teüffels,<note type="annotation">Vgl. Offb 2,9.</note> und dann die, so darinn gewesen seyn
+
+
+        <lb/><pb n="B1r" facs="#bsb00056424_013"/>Und <rs type="person" ref="#hus_jan">Johansen Hussen</rs> umb seyner Ketzereyschen <w>Hande
+        <pc>-</pc><lb/>lung</w> wilen zuverprennen verordent haben, Nemlich unsern
+        <lb/>vorfarn <rs type="person" ref="#sigismund">Kayser Sigmunden</rs>, auch des <rs type="place" ref="#heiliges_roemisches_reich">heyligen Reychs</rs>
+        <lb/>Fürsten und gemaine versamlung, EntChristen und des
+        <lb/>Teüffls Appostel, Todtsleger und Phariseyer. Und
+        <lb/>sagt, das ales das, so in dem selben Concili von des <rs type="person" ref="#hus_jan"><w>Hus
+        <pc>-</pc><lb/>sen</w></rs> Irrsal wegen verdampt, Christenlich und Evangelisch
+        <lb/>sey und verjeht das anzünemen und zu beweren. Aber die
+        <lb/>Artickel, so das selb Concili angenomen und beslossen hat,
+        <lb/>will Er kains wegs zulassen.<note type="annotation">Zum Konzil von Konstanz (1414-1418) und der dortigen Verurteilung des <rs type="person" ref="#jan_hus">Jan Hus</rs> als Häretiker vgl. <rs type="bibl" ref="#brandmueller_konstanz"><surname type="author">Brandmüller</surname>, Konstanz</rs>. Zu Luthers Aussagen über das Konstanzer Konzil vgl. <rs type="bibl" ref="#spehr_konzil"><surname type="author">Spehr</surname>, Konzil, bes. S. 147-163; 228-233; 267-270</rs>.</note> Und ist mit seinem gemüt in
+        <lb/>ein soliche unsynnigkeit gefallen, das er gloriert: sey der <w>ge
+        <pc>-</pc><lb/>dacht</w> <rs type="person" ref="#hus_jan">Huss</rs> ein mal ein Ketzer gewesen, so sey <rs type="person" ref="#luther_martin">Er</rs> zehen
+        <lb/>mal eyn Ketzer.<note type="annotation">Vgl. <rs type="bibl" ref="#wa_7">WA 7, S. 135, 23 f.</rs></note> Und damit alle ander des <rs type="person" ref="#luther_martin">Luthers</rs>
+        <lb/>unzalpar boßheiten umb kürtze willen unertzelt beleiben,
+        <lb/>So hat diser ainiger, nit eyn Mensch, sonder als der böß
+        <lb/>vheinde<note type="annotation">Gemeint ist der Teufel.</note> in gestalt eins Menschen, mit angenomer Münchs
+        <lb/>Kuten manicher ketzer aufs höchst verdampter <w>Ketzerey
+        <pc>-</pc><lb/>en</w>, die lange zeit verborgen beliben sein, Zu eyn stinckende
+        <lb/>pfützen zusamen versamelt und selbs Etliche von neuem
+        <lb/>erdacht In schein, das er predig den Glauben, den Er <w>me
+        <pc>-</pc><lb/>niglichen</w><note type="annotation">jedermann.</note> mit solichem hohen vleys einbildet, damit er den
+        <lb/>waren gerechten Glauben zerstöre. Unnd under dem <w>Na
+        <pc>-</pc><lb/>men</w> und schein der Evangelischen lere allen <w>Evangelisch
+        <pc>-</pc><lb/>en</w> fryd und liebe, auch aller guten ding ordnung und die
+        <lb/>aller zierlichst Christlich gestalt umbkere und underdrucke.
+        <lb/>Solchs alles haben wir zu hertzen gefast Und in krafft <w>un
+        <pc>-</pc><lb/>sers</w> Kayserlichen Ambts und wirdigkait, damit wir von
+        <lb/>Got fürsehen sein, Dartzu aus sonder lieb und zunaygung,
+        <lb/>so wir wie unser vorfarn zubeschirmung, aufenthalt und
+        <lb/>hanthabung des Christenlichen Glaubens, auch des <w>Rö
+        <pc>-</pc><lb/>mischen</w> Bischofs und hayligen Stuls Eere, haben unnd
+        <lb/>tragen, betrachtet, das uns sonderlich uber obgemelt<note type="annotation">oben genannt.</note> <rs type="person" ref="#leo_x"><w>Bäb
+
+        <pc>-</pc><lb/><pb n="B1v" facs="#bsb00056424_014"/>stlicher</w> hayligkait</rs> Ermanung und Ersuchen on unnser
+        <lb/>Merckliche NachRed<note type="annotation">Tadel, nachteiliges Gerede (über den Betreffenden).</note> unnd der ganntzen Christenheyt
+        <lb/>Smach und Schaden in eyner solichen grossen und <w>Er
+        <pc>-</pc><lb/>schrockenlichen</w> handlung nachlesig zu seyn nit gebüren
+        <lb/>welle, als wir auch nit thun sollen und unser will und <w>ge
+        <pc>-</pc><lb/>müt</w> nit gewesen ist. Sonder wir wöllen vil mer in unser
+        <lb/>vorfarn Römischer Kayser fustapffen treten und Iren
+        <lb/>hochberümbpten Thaten, so Sy zubeschirmung der <w>Chri
+        <pc>-</pc><lb/>stenlichen</w> Kirchen volbracht haben, nachvolgen und den
+        <lb/>loblichen Constitutionen, so zu Straff und verdilgung
+        <lb/>der Ketzer gemacht seyn, anhangen. Und haben sonderlich
+        <lb/>diser sachen halben unser und des <rs type="place" ref="#heiliges_roemisches_reich">heiligen Reichs</rs> <w>Churfür
+        <pc>-</pc><lb/>sten</w>, Fürsten und Stende yetz hie zu <rs type="place" ref="#worms">Wormbs</rs> zumermalen
+        <lb/>zu uns berufft und dieselb sachen mit hohem vleis, wie
+        <lb/>dann die mercklich notturfft<note type="annotation">Notwendigkeit.</note> erfordert, treffenlichen <w>bewe
+        <pc>-</pc><lb/>gen</w><note type="annotation">abgewogen.</note> Und mit Eynhelligem Rat und willen unns diser
+        <lb/>nachvolgenden Mainung vereinet unnd Entschlossen,
+        <lb/>In gestalt: Wiewol einem so verdambten und in seyner
+        <lb/>verstopften verkerung verharten und von dem Prauch
+        <lb/>der Christenlichen Kirchen abgesunderten Menschen
+        <lb/>und offenbaren Ketzer verhör zegeben in allem <w>Rech
+        <pc>-</pc><lb/>ten</w> außgenomen ist, Das wir, alle Unnutze Reden <w>abzu
+        <pc>-</pc><lb/>schnyden</w>, sonderlich Dieweil Etlich offenlich vermaynen,
+        <lb/>das in des <rs type="person" ref="#luther_martin">Luthers</rs> Namen vil Bücher geschriben und
+        <lb/>gedruckt worden, die von yme nit gedicht oder <w>außgan
+        <pc>-</pc><lb/>gen</w> sein sollen, Und auch Etlich vermaint, den <rs type="person" ref="#luther_martin">Luther</rs>
+        <lb/>zuvor und Ehe wir weyter gegen yme Procediern<note type="annotation">vorgehen.</note>, billich<note type="annotation">(rechtlich) angemessen.</note>
+        <lb/>zuhören, Ine zu uns Erfordern<note type="annotation">vorladen.</note> und mit freyem gelayt
+        <lb/>fürsehen sollen. Darauff wir Ine auch an unsern hoff <w>be
+        <pc>-</pc><lb/>rüfft</w> Und durch Einen unsern Herold mit <w>schrifft
+        <pc>-</pc><lb/>lichem</w> gelait hieher zu uns komen lassen und<note type="crit_app">Korrigiert nach Druck 2 aus: v.</note> in unser und <w>al
+        <pc>-</pc><lb/>ler</w> obgemelten unser und <rs type="place" ref="#heiliges_roemisches_reich">des Reichs</rs> Churfürsten, <w>Für
+        <pc>-</pc><lb/>sten</w> und Stende Personlichen gegenwurtigkeit fragen
+
+        <lb/><pb n="B2r" facs="#bsb00056424_015"/>lassen,<note type="annotation">Zum im Folgenden berichteten Ablauf auf dem Reichstag vgl. die <ref type="einleitung" target="0107#verlauf">Einleitung<ref type="print">, oben S. </ref></ref>.</note> Ob Er die Bücher, die Ime datzemal<note type="annotation">zu diesem Zeitpunkt.</note> under <w>Au
+        <pc>-</pc><lb/>gen</w> gelegt seyn, auch ander Bücher, die in seynem namen
+        <lb/>umbgetragen werden, gemacht hab, Und ob Er das, so
+        <lb/>in solichen Büchern wider die hailigen Concilien Decret,
+        <lb/>brauch und gewonhaiten, von unsern voreltern bis auf
+        <lb/>disen tag gehalten worden, begriffen sein, Revociern<note type="annotation">widerrufen.</note> und
+        <lb/>widerumb zu der schoß und Einigkeyt der hailigen <w>Kir
+        <pc>-</pc><lb/>chen</w> komen wölle. Und ist Ime sölichs mit der <w>gleich
+        <pc>-</pc><lb/>en</w> maynung und Ermanung fürgehalten, Die den <w>ver
+        <pc>-</pc><lb/>stoptisten</w> Menschen und herter dann ein Steyn <w>Erweich
+        <pc>-</pc><lb/>en</w> und bewegen möchten. Und alspald Er die selben
+        <lb/>Bücher gehört, hat Er die für seyne Bücher bekant und
+        <lb/>verjehen<note type="annotation">bekannt.</note>. Und darauff Protestiert, das Er die <w>nymmer
+        <pc>-</pc><lb/>mer</w> verleügnen well, Und darzu geret, Das er noch vil
+        <lb/>mer ander Bücher gemacht hab, die wir hierinn, dieweyl
+        <lb/>wir der kain wissen tragen, nit angezaigt haben.</p>
+<p>
+        <lb/>Aber berurend die Revocation<note type="annotation">in Bezug auf den (geforderten) Widerruf.</note> hat Er ainer zeit begert,<note type="annotation">Gemeint ist: er hat sich Bedenkzeit erbeten.</note>
+        <lb/>Und wiewol Ime die billichen<note type="annotation">rechtmäßig.</note> wer abgeslagen worden,
+        <lb/>so doch wyder die neuerung und Irrsall Im Glauben on
+        <lb/>allen verzug gehandelt werden soll, Und Er aus unserm
+        <lb/>vordern<note type="annotation">früheren.</note> Mandat<note type="annotation">Vgl. <ref type="quelle" target="0108#mandat">oben<ref type="print"> S. , Z. </ref></ref>.</note> und unserm Schreyben, an yne <w>ausgan
+        <pc>-</pc><lb/>gen</w>, die beide im gewiß uberantwort sein, clerlichen <w>verno
+        <pc>-</pc><lb/>men</w> hat, umb wellicher ursach willen er zu uns erfordert ist
+        <lb/>und er deßhalben für unser und der Stende angesicht on
+        <lb/>beraite antwort nit komen sein solt, Nichtdestminder haben
+        <lb/>wir aus miltigkeit und gütigkeit yme einen tag zugegeben,
+        <lb/>und nach verscheinung<note type="annotation">Verstreichen.</note> desselben tags ist er widerumb vor
+        <lb/>uns und <rs type="place" ref="#heiliges_roemisches_reich">des Reichs</rs> Stenden erschinen und mit vleyssiger
+        <lb/>ermanung wie vor ersucht worden, In sich selbs zugeen, mit
+        <lb/>unserm zusagen, so er das, so in seinen Büchern verdambt
+        <lb/>und böß were, Revociert, Das Er widerumb in unsers
+        <lb/>hayligen Vater Babst huld unnd Gnad komen soll.</p>        
+<p>
+        <lb/>Unnd wir auch daran seyn wöllen, das seyn hayligkayt
+
+        <lb/><pb n="B2v" facs="#bsb00056424_016"/>aus yeder Christenlichen Nation zwen treffenlich Mann,
+        <lb/>eins gutten lebens und hoher lere, seine Bücher <w>vleyssig
+        <pc>-</pc><lb/>clich</w> ubersehen und das böß daraus thun, Und was guet
+        <lb/>were, dasselb solte die Bebstliche hayligkeit Approbiern.</p>
+<p>
+        <lb/>Aber uber das alles hat Er soliche Revocation nit thun
+        <lb/>noch unser gnedig Erbieten nit annemen wöllen, sonder
+        <lb/>das gantz abgeschlagen und mit dergleichen <w>ungebürlich
+        <pc>-</pc><lb/>en</w> worten und geberden, die keinem synnigen<note type="annotation">vernünftigen, geistig gesunden.</note> und <w>Reguli
+        <pc>-</pc><lb/>erten</w><note type="annotation">einem Orden (mit Ordensregel) angehörenden.</note> geistlichen kains wegs gezimen, offenlich gesagt, Er
+        <lb/>wölle in seynen Büchern nit ein wort endern.<!-- Abstand --> Und also
+        <lb/>in unser und der Stende gegenwart die hayligen <w>Conci
+        <pc>-</pc><lb/>lien</w> unmiltigclich und unverschampt verspot, verdambt, 
+        <lb/>geschmecht und gentzlichen verachtet, Und zuvor<note type="annotation">insbesondere.</note> das zu
+        <lb/><rs type="place" ref="#konstanz">Costentz</rs>, so der Deütschen Nation zu Ewiger Ere den
+        <lb/>Fryden und Einigkeyt wider gegeben; Er werde dann mit
+        <lb/>Disputation, die Er auff vertröstung<note type="annotation">unter Berufung auf.</note> unsers gelaits <w>be
+        <pc>-</pc><lb/>gert</w>, unangesehen das Er gut wissen hat, das die in <w>Göt
+        <pc>-</pc><lb/>lichen</w> und Menschlichen Rechten verbotten seyn, <w>uberwun
+        <pc>-</pc><lb/>den</w>. <!-- Abstand --> Und wiewol wir auff solich unmilte antwort,
+        <lb/>die nit on kleine beschwerung unser und der Stende <w>ge
+        <pc>-</pc><lb/>müet</w>, auch des gemainen<note type="annotation">gewöhnlichen.</note> volcks ergernuss, gehort worden
+        <lb/>ist, aus beweglichen<note type="annotation">gewichtigen.</note> ursachen fürgenomen heten, von
+        <lb/>stund darauff zu ferrern<note type="annotation">weiteren.</note> miteln zugreiffen, In gestracks <w>wi
+        <pc>-</pc><lb/>derumb</w> abscheyden und heimziehen zulassen, In massen wir
+        <lb/>solch unser meynung, mit aygner handt geschriben, des
+        <lb/>nachvolgenden tags haben eröffnen lassen, So sein wir
+        <lb/>doch durch der Obgemelten Churfürsten, Fürsten und
+        <lb/>Stende hochs ansuchen bewegt worden, Das wir Ime
+        <lb/>noch drey tage sich zubekeren Frist gegeben haben. Und
+        <lb/>seyn darzwischen zwen Churfürsten, auch zwen Gaystlich
+        <lb/>und zwen Weltlich Fürsten Und dann zwen von unsern
+        <lb/>und <rs type="place" ref="#heiliges_roemisches_reich">des Reichs</rs> Stetten verordent worden,<note type="annotation">Dieser Ausschuss wurde am 23. April gebildet; zu den Teilnehmern und dortigen Verhandlungen vgl. die <ref type="einleitung" target="0107#ausschuss">Einleitung<ref type="print">, oben S. #,</ref></ref>.</note> Die aus <w>be
+
+        <pc>-</pc><lb/><pb n="B3r" facs="#bsb00056424_017"/>felich</w> und von wegen der gemeinen Reichs versamlung<note type="annotation">Gemeint ist: im Auftrag des Reichstags.</note>
+        <lb/>den gedachten <rs type="person" ref="#luther_martin">Luther</rs> für Sich erfordert und mit gueter
+        <lb/>Warnung, Ermanung und underweysung und allem
+        <lb/>dem, so müglich und dienstlich ist, Ine zubekeren, nichts
+        <lb/>underlassen, Mit anzaigung, wo Er sich nit bekere, In was
+        <lb/>schweren Straff Er bey Uns und dem <rs type="place" ref="#heiliges_roemisches_reich">hayligen Reiche</rs>,
+        <lb/>auch nach ordnung der Recht, fallen werde. <!-- Abstand -->Und
+        <lb/>als solicher vleys und Ernst bey ym unfruchtbar gewesen
+        <lb/>ist, Hat <rs type="person" ref="#richard_trier">unser Churfürsten ainer</rs> zwen güetig und <w>kunst
+        <pc>-</pc><lb/>reich</w> Doctores zu yme genomen<note type="annotation">Bei dem Kurfürsten handelte es sich um <rs type="person" ref="#richard_trier">Richard von Greiffenklau, Erzbischof von Trier</rs>; bei den Gelehrten um <rs type="person" ref="#peutinger_konrad">Konrad Peutinger</rs> und <rs type="person" ref="#vehus_hieronymus">Hieronymus Vehus</rs>. Vgl. dazu die <ref type="einleitung" target="0107#greiffenklau">Einleitung<ref type="print">, oben S. #</ref></ref>.</note> und mitsampt <w>densel
+        <pc>-</pc><lb/>ben</w>, auch selbs allain in sonderheit, nit allain mit Hoher
+        <lb/>Ermanung, sonder auch scheinparlicher anzaygung <w>ma
+        <pc>-</pc><lb/>nicher</w> sein, des <rs type="person" ref="#luther_martin">Luthers</rs>, Irrsal understanden yn zu <w>be
+        <pc>-</pc><lb/>wegen</w>, das Er mer ansehe unsers heyligen vater Babsts,
+        <lb/>Deßgleichen Unser und aller Reichs Stende, auch <w>an
+        <pc>-</pc><lb/>der</w> Christglaubigen Nation gebrauch, den Sy nach <w>ord
+        <pc>-</pc><lb/>nung</w> der Christenlichen Kirchen so lange Jar herbracht<note type="annotation">bewahrt.</note>
+        <lb/>haben, dann sein aynigen Synn,<note type="annotation">seine persönliche Ansicht.</note> mit dem anhang: Wann Er
+        <lb/>von derselben seyner Unsinnigkeyt abweiche und sich <w>wy
+        <pc>-</pc><lb/>derumb</w> bekere, werde Er befynden und Erkennen, das
+        <lb/>solichs aus ainem loblichen Exempel vil hayliger Väter
+        <lb/>und zu behaltung<note type="annotation">Erhaltung.</note> seiner Seel, Ere und leybs beschehe.</p>
+<p>
+        <lb/>Darauff, als wir Glaublichen bericht sein, Solle <rs type="person" ref="#luther_martin"><w>Mar
+        <pc>-</pc><lb/>tin</w> Luther</rs> geantwort haben, Das er nit allein alle <w>yetz
+        <pc>-</pc><lb/>gemelte</w> Personen, sonder auch ain gemein<note type="annotation">allgemeines.</note> Concilium (ob
+        <lb/>gleich wol ains sein wurde)<note type="annotation">Gemeint ist: falls eines stattfinden könnte.</note> verdechtlich und Arckwenig
+        <lb/>halte.<!-- Abstand --> Und das Er aus seinen schrifften nit die <w>we
+        <pc>-</pc><lb/>nigist</w> Silben verwandeln wolle, wie Er vormals in <w>un
+        <pc>-</pc><lb/>ser</w> und des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs> Stende beywesen<note type="annotation">Anwesenheit.</note> auch gethan het.</p>
+<p>
+        <lb/>Es sey dann, das Er von ainem gelerten Mann <w>uberwun
+        <pc>-</pc><lb/>den</w> werde, Doch nach seyner Regel und nit aus den <w>Con
+        <pc>-</pc><lb/>cilien</w> noch auß Kayserlichen oder Geystlichen gesetzen
+
+        <lb/><pb n="B3v" facs="#bsb00056424_018"/>noch auch aus ainicher<note type="annotation">irgendwelcher.</note> Väter Auctoriteten, wie hailig die
+        <lb/>sein, sonder allein aus den worten der hailigen schrifft, die Er
+        <lb/>vermaint, nach seinem Syn zuersettigung seins zufelligen
+        <lb/>gemüts verstanden werden sollen. Uber das Clar und
+        <lb/>offenbar ist, das aus denselben Auctoriteten, die <w>zuerfül
+        <pc>-</pc><lb/>lung</w> des, so in baiden Testamenten nit gemeldet oder <w>auß
+        <pc>-</pc><lb/>gedruckt</w> seyn, bißher die hailig Christenlich Kirch <w>gere
+        <pc>-</pc><lb/>giert</w> worden ist. Wann sich nu die sachen dermassen <w>verlauf
+        <pc>-</pc><lb/>fen</w> hat und <rs type="person" ref="#luther_martin">Martin Luther</rs> also gantz verstopft und <w>ver
+        <pc>-</pc><lb/>kerlich</w> in seynen offenbaren Ketzerischen Opinionen <w>ver
+        <pc>-</pc><lb/>harret</w> und dardurch von allen den, die Gotsforcht und
+        <lb/>vernunfft haben, unsynnig oder, das Er mit dem pösen
+        <lb/>gayst besessen were, geacht und gehalten wirdet, Haben wir
+        <lb/>yne laut unsers glayts auf den Fünffunzweintzigisten tags
+        <lb/>des<note type="crit_app">Korrigiert nach Druck 2 aus: das.</note> Monats Aprilis negstverschinen<note type="annotation">als nächstes darauf folgenden.</note> von stund von <w>un
+        <pc>-</pc><lb/>serm</w> Angesicht hinweg ziehen lassen Und yme widerumb
+        <lb/>Ein Heroldt zugeordent, Also, das Er von demselben <w>Fünff
+        <pc>-</pc><lb/>undzweintzigisten</w> tag Aprilis an zurechen zweintzig tag,
+        <lb/>die negsten darnach volgendt, unnser frey sicher Glayt
+        <lb/>haben und dasselb unser Glayt nach verscheinung<note type="annotation">Ablauf.</note> solicher
+        <lb/>zweintzig tag auß seyn und yne lenger nit furtragen<note type="annotation">Gemeint ist: ihm nicht länger das Geleit geben.</note> solle.
+        <lb/>Und zu letzt darauff zu andern füeglichen Remedien<note type="annotation">Mitteln (zur Abhilfe).</note>, <w>wy
+        <pc>-</pc><lb/>der</w> dise swere gifftige sucht zu procedieren, gegriffen, wie <w>her
+        <pc>-</pc><lb/>nachvolgt</w>. <!-- Abstand -->Am Ersten: zu lob dem Almechtigen und <w>be
+        <pc>-</pc><lb/>schirmung</w> des Christenlichen Glaubens, auch des <w>Römisch
+        <pc>-</pc><lb/>en</w> Bischofs und Stuls gebürlichen Ere, in Crafft des
+        <lb/>Ambts unser Keiserlichen wirdigkeit, hochheit und <w>Aucto
+        <pc>-</pc><lb/>ritet</w>, Darzu mit einhelligem Rat und willen unser und des
+        <lb/><rs type="place" ref="#heiliges_roemisches_reich">heiligen Reichs</rs> Churfürsten, Fürsten und Stende yetzo hie<note type="crit_app">Korrigiert aus: hiie.</note>
+        <lb/>versamelt, Haben wir zu Ewiger gedechtnus diss <w>hann
+        <pc>-</pc><lb/>dels</w>, zuvolstreckung des Decrets, Sententz und <w>verdamm
+        <pc>-</pc><lb/>nus</w> laut der Bullen, so unser <rs type="person" ref="#leo_x">Hailiger Vater Babst</rs> alls
+
+        <lb/><pb n="B4r" facs="#bsb00056424_019"/>diser sachen ordenlicher Richter hat außgeen lassen,<note type="annotation">Gemeint ist die Bannbulle <q>Decet Romanum Pontificem</q> vom 3. Januar 1521, vgl. die Edition bei <rs type="bibl" ref="#fabisch_iserloh_dokumente_2"><surname type="editor">Fabisch / Iserloh</surname>, Dokumente 2, 445-467 (Nr. 45)</rs>.</note> Den
+        <lb/>gedachten <rs type="person" ref="#luther_martin">Martin Luther</rs> als von Gots Kirchen <w>abge
+        <pc>-</pc><lb/>sündert</w> gelide und Einen verstopten zertrenner und <w>offen
+        <pc>-</pc><lb/>barn</w> Ketzer von uns und Eüch allen und yedem in <w>son
+        <pc>-</pc><lb/>derhayt</w> zuachten und zehalten Erkennet und Ercleret,
+        <lb/>und thun das wissentlich in krafft diß brieffs. Und <w>gebie
+        <pc>-</pc><lb/>ten</w> darauff Eüch allen und yedem besonder bey den <w>Phlich
+        <pc>-</pc><lb/>ten</w>, damit ir uns und dem <rs type="place" ref="#heiliges_roemisches_reich">heyligen Reiche</rs> verwandt seyt,
+        <lb/>Auch vermeydung der peene Criminis lese Mayestatis<note type="annotation">der Strafe für Majestätsverbrechen, d.h. gegen den Herrscher oder das Gemeinwesen als Ganzes gerichtete Delikte (vgl. dazu <rs type="bibl" ref="#lieberwirth_majestaetsverbrechen"><surname type="author">Lieberwirth</surname>, Majestätsverbrechen</rs>).</note>
+        <lb/>und unser und des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs> Acht und Aberacht<note type="annotation" xml:id="acht">Die Acht bedeutete den Verlust aller Güter, Rechte und Freiheiten sowie jeglicher Form von Rechtsschutz gegen Zugriffe Dritter auf Besitz oder Person (vgl. im Einzelnen <rs type="bibl" ref="#weber_reichsacht"><surname type="author">Weber</surname>, Reichsacht</rs>; <rs type="bibl" ref="#battenberg_acht"><surname type="author">Battenberg</surname>, Acht</rs>). Die Aberacht bezeichnete ursprünglich ein zweites, verschärftes Achturteil; <q>Acht und Aberacht</q> wurde aber ab dem 15. Jahrhundert zunehmend zur feststehenden Formel für Achturteile überhaupt (vgl. Art. Aberacht, in: <rs type="bibl" ref="#drw_1">DRW 1, Sp. 45f.</rs>)</note> und dartzu
+        <lb/>Privirung und Entsetzung<note type="annotation">Verlust und Entzug.</note> aller Regalia<note type="annotation">von einer höheren Obrigkeit (hier dem Kaiser bzw. Reich) verliehenen Herrschafts- oder Nutzungsrechte.</note>, Lehen<note type="annotation">herrschaftlich verliehenes Nutzungsrecht über Territorien oder andere Gegenstände.</note>, gnaden
+        <lb/>und Freyhaiten, so Ir bißher von unsern vorfarn, uns
+        <lb/>und dem <rs type="place" ref="#heiliges_roemisches_reich">hayligen Reiche</rs> in einicher weg<note type="annotation">in irgendeiner Weise.</note> gehebt von <w>Rö
+        <pc>-</pc><lb/>mischer</w> Kayserlicher macht, Ernstlich mit disem brief und
+        <lb/>wöllen, Das Ir samentlich und sonderlich nach <w>verschey
+        <pc>-</pc><lb/>nung</w><note type="annotation">Verstreichen, Ablauf.</note> der oberürten zwaintzig tag, die sich auff den <w>Vier
+        <pc>-</pc><lb/>tzehenden</w> tag ditz gegenwurtigen Monats May <w>En
+        <pc>-</pc><lb/>den</w>, den vorgemelten <rs type="person" ref="#luther_martin">Martin Luther</rs> Nit Hauset, hoffet<note type="annotation">berherbergt.</note>,
+        <lb/>Etzt<note type="annotation">ernährt, mit Esswaren versorgt.</note>, Drencket noch endthaltet<note type="annotation">ihm Unterhalt gewährt.</note> noch yme mit worten oder
+        <lb/>Wercken, Haimlich noch Offenlich kaynerlay hilff, <w>An
+        <pc>-</pc><lb/>hang</w>, Beystandt noch fürschub<note type="annotation">Förderung, Unterstützung.</note> beweyset. Sonder wo Ir
+        <lb/>yne alßdann ankomen<note type="annotation">antreffen.</note> und betretten<note type="annotation">erwischen, ertappen.</note> und des mechtig seyn
+        <lb/>mügt,<note type="annotation">dazu in der Lage seid.</note> In fencklichen annemet<note type="annotation">gefangen nehmt.</note> und uns wolbewart <w>zusen
+        <pc>-</pc><lb/>det</w> oder das zuthun bestellet<note type="annotation">(jemanden) beauftragt, das zu tun.</note> oder uns das zum <w>wenigi
+        <pc>-</pc><lb/>sten</w>,<note type="crit_app">Korrigiert aus: wenigigisten.</note> so Er zu Hannden bracht wirdet, <w>unverzogen
+        <pc>-</pc><lb/>lich</w> verkündet und anzaiget und yne dazwischen also <w>fen
+        <pc>-</pc><lb/>cklichen</w> behaltet, bis Eüch von unns beschayd, was Ir
+        <lb/>ferrer nach Ordnunng der Recht gegen Ime hanndeln
+        <lb/>söllet, gegeben, Unnd Ir umb solich haylig werck, Auch
+        <lb/>Eüer Müe und Costen zimliche Ergetzlichait<note type="annotation">angemessene Entschädigung.</note> emphahen
+        <lb/>werdet. Aber gegen seinen mitverwandten Anhengern,
+
+        <lb/><pb n="B4v" facs="#bsb00056424_020"/>Enthaltern,<note type="annotation">Unterstützern.</note> Fürschiebern,<note type="annotation">Förderern.</note> Gönnern Und nachvolgern
+        <lb/>Und derselben beweglich und unbeweglich güter Sollet
+        <lb/>Ir in Crafft der hayligen Constitution<note type="annotation">Gemeint ist wahrscheinlich die Verfassung des Heiligen Römischen Reichs.</note> und Unser und
+        <lb/>des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs> Acht und Aberacht<note type="annotation">Vgl. <ref type="quelle" target="0108#acht">oben<ref type="print">, S. , Anm. </ref></ref>.</note> diser weyse handeln:</p>
+<p>       
+        <lb/>Nemlich, Sy nyderwerffen und fahen<note type="annotation">festsetzen, gefangen nehmen.</note> und Ire güeter
+        <lb/>zu Eurn handen nemen und die In Eurn aygen nutz
+        <lb/>wenden und behalten on menigcklichs<note type="annotation">irgendjemandes.</note> verhynderung, Es
+        <lb/>sey dann, das sy durch glaublichen schein<note type="annotation">glaubwürdigen Beweis.</note> anzaygen, das Sy
+        <lb/>disen unrechten weg verlassen und Bäbstliche Absolution
+        <lb/>erlangt haben. Ferrer gebieten wir Eüch allen und
+        <lb/>Eür yedem In sonders<note type="annotation">jedem Einzelnen.</note> bey den vorgeschriben peenen<note type="annotation">zuvor genannten Strafen.</note>,
+        <lb/>Das Eur kainer des obgenannten <rs type="person" ref="#luther_martin">Martin Luther</rs>
+        <lb/>schrifften, von unserm <rs type="person" ref="#leo_x">hayligen Vater Babst</rs>, wie obstet<note type="annotation">oben erläutert ist.</note>,
+        <lb/>verdambt, und all annder schrifften, die in latein unnd
+        <lb/>Deütsch oder in ander Sprach bißher durch ine gemacht
+        <lb/>sein oder hynfür<note type="annotation">in Zukunft.</note> gemacht werden, Als Böß, Argwenig
+        <lb/>und verdechtlich Und von eynem offenbarn <w>hartneggi
+        <pc>-</pc><lb/>ckhen</w> Ketzer außgegangen, Kauff, verkauff, lese, <w>Be
+        <pc>-</pc><lb/>halt</w>, Abschreyb, Druck oder abschreyben oder Drucken
+        <lb/>lasse, noch seiner Opinion<note type="annotation">Gemeint ist <rs type="person" ref="#luther_martin">Luthers</rs> Lehre und Auffassung.</note> zufall, die auch nit halt, Predig
+        <lb/>noch beschirme noch das in ainich ander weg,<note type="annotation">auf irgendeine andere Weise.</note> wie <w>Men
+        <pc>-</pc><lb/>schen</w> Synn das bedencken kan, understee<note type="annotation">sich darum bemühe.</note>.<!-- Abstand --> Unangesehen,
+        <lb/>ob darinn etwas guts, den Ainfeltigen Menschen damit
+        <lb/>zu betriegen, eingefürt were. Dann wie die aller peste
+        <lb/>Speys, so mit ainem clainen tropfen giffts vermischet, von
+        <lb/>allen Menschen gescheühet, sovil mer sollen soliche <w>schriff
+        <pc>-</pc><lb/>ten</w> und Bücher, in den so manig der Seelen gifft und <w>ver
+        <pc>-</pc><lb/>dambnus</w> eingefüert<note type="crit_app">Korrigiert nach Druck 3 aus: eingefüt (Druck 2 liest: eingefeürt).</note> sein, von uns allen nit allein vermitten,
+        <lb/>sonder auch die von aller Menschen gedechtnus abgethan
+        <lb/>und verdiglt<note type="crit_app">Korrigiert nach Druck 2 aus: verdiglt.</note> werden. Damit Sy nyemands <w>scha
+        <pc>-</pc><lb/>den</w> oder Ewiglich tödten. Dieweyl doch sonst vormals
+        <lb/>alles das, so gut in seinen Büchern geschriben, von den <w>hey
+
+        <pc>-</pc><lb/><pb n="C1r" facs="#bsb00056424_021"/>ligen</w> Vätern, die von der hayligen Christenlichen <w>Kirch
+        <pc>-</pc><lb/>en</w> angenommen und Approbiert seyn, zumermalen <w>an
+        <pc>-</pc><lb/>gezaigt</w> ist und on alle sorg und Arckwenigkait eynichs<note type="annotation">irgendeines.</note>
+        <lb/>ubels mag gelesen und gehalten werden. Dartzu sollet
+        <lb/>Ir all und Eur yeder, in was wirden, stats<note type="annotation">Stellung.</note> oder wesens
+        <lb/>der sey, und sonderlich die, so Oberkeyt unnd <w>gerichtß
+        <pc>-</pc><lb/>zwang</w> haben und gebrauchen, bey vermeydunng <w>vorbe
+        <pc>-</pc><lb/>rürter</w> Peen,<note type="annotation">vorher genannter Strafe.</note> Allennthalben Im <rs type="place" ref="#heiliges_roemisches_reich">hayligen Römischen
+        <lb/>Reiche</rs>, Auch unser Erblichen Fürstenthümben unnd
+        <lb/>Landen, mit der That Ernstlich ordnen, Straffen, <w>Ge
+        <pc>-</pc><lb/>pieten</w> und bestellen, all und yegklich solich Obbestimpt des
+        <lb/><rs type="person" ref="#luther_martin">Luthers</rs> vergifft schrifften und Bücher als die, so dienen
+        <lb/>zu ainem grossen auflauff<note type="annotation">Aufruhr.</note>, Schaden, Zertrennung und
+        <lb/>Ketzereyen In gotes Kirchen, mit dem Feür <w>zuverbren
+        <pc>-</pc><lb/>nen</w> und in den und ander weg genntzlichen abzethun,
+        <lb/>zuvernichten und zuverdilgen.<!-- Abstand --> Deßgleychen
+        <lb/>söllet Ir der Bäbstlichen hayligkeit Botschafften oder
+        <lb/>Iren verordenten Commissarien<note type="annotation">Gemeint sind päpstliche Nuntien oder deren Beauftragte..</note> in söllichem auff ir <w>an
+        <pc>-</pc><lb/>langen</w> und Ersuchen mit allem vleys und Treuen <w>bey
+        <pc>-</pc><lb/>steen</w>. Und nichtdestminder in der selben abwesen diss <w>al
+        <pc>-</pc><lb/>les</w> und yedes also zugeschehen, zu Exequiern<note type="annotation">zu vollziehen.</note> und <w>zuvol
+        <pc>-</pc><lb/>bringen</w> aus unserm geheyß und bevelich, thut und <w>han
+        <pc>-</pc><lb/>delt</w>. <!-- Abstand -->Daneben gebieten wir allen andern <w>un
+        <pc>-</pc><lb/>sern</w> unnd des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs>, Auch unnser Erblichen <w>Fürsten
+        <pc>-</pc><lb/>thümb</w> und Lande underthanen und Getreuen Ernstlich
+        <lb/>mit disem brief, Das Ir den obgemelten Stenden und
+        <lb/>Oberkayten, gleich uns selbs, in solichem hilfflich, <w>beysten
+        <pc>-</pc><lb/>dig</w>, gehorsam und gewertig<note type="annotation">dienstbereit.</note> seyt bey vermeydung der
+        <lb/>angezaygten Penen,<note type="annotation">Strafen.</note> Straffen und Pussen.</p>
+<p>
+        <lb/>Und nach dem die mercklich notturfft<note type="annotation">Notwendigkeit.</note> Erfordert, <w>fürze
+
+        <pc>-</pc><lb/><pb n="C1v" facs="#bsb00056424_022"/>kumen</w><note type="annotation">(dem) vorzubeugen.</note> und zuverhuten. Das des <rs type="person" ref="#luther_martin">Luthers</rs> Bücher oder
+        <lb/>Böß Ausszüg derselben, so in annderer Namen darinn
+        <lb/>seyn, als des Dichters namen nit gemeldet wirdet, <w>auß
+        <pc>-</pc><lb/>geen</w>, noch sunst vil annder Bücher, die, als wir mit <w>be
+        <pc>-</pc><lb/>schwerung</w> unsers gemüts bericht, den Merern<note type="annotation">überwiegenden.</note> tayl in
+        <lb/>Deütsch Landen gemacht und Gedruckt und böser <w>le
+        <pc>-</pc><lb/>ren</w> und Exempel vol seyn, hinfür nit mer geschriben
+        <lb/>noch gedruckt werden, damit die Christglaubigen <w>wey
+        <pc>-</pc><lb/>ter</w> aus verlesung derselben nit in grössern Irrsall des
+        <lb/>Glaubenns, lebenns unnd Gueter sytten fallen unnd
+        <lb/>Ergerung, Neyd und hass in Gotes Kirchen daraus <w>ent
+        <pc>-</pc><lb/>springe</w>, wie sich bißher Augenscheinlich erzaygt hat. <w>Da
+        <pc>-</pc><lb/>raus</w> täglichs ye lennger ye mer In Künigreichen, <w>Für
+        <pc>-</pc><lb/>stenthumben</w> und Landen Aufflauff<note type="annotation">Aufruhr.</note>, Zertrennung und
+        <lb/>Ungehorsam zubesorgen ist. Demnach soliche schedliche
+        <lb/>verderbliche sucht<note type="annotation">Krankheit (gemeint ist Häresie).</note> außzudilgen,<!-- Abstand --> Gepieten wir
+        <lb/>abermals mit Rat und willen unser unnd des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs>
+        <lb/>Churfürsten, Fürsten und Stennde, bey vorgedachten
+        <lb/>Sweren Penen<note type="annotation">Strafen.</note>, Straffen und Pussen, Eüch den selben
+        <lb/>unsern und des <rs type="place" ref="#heiliges_roemisches_reich">Reychs</rs> unnd unnser Erblichen <w>Für
+        <pc>-</pc><lb/>stenthumb</w> und Lande underthanen, allen und Euer <w>ye
+        <pc>-</pc><lb/>den</w>, als Römischer Kayser und Erblicher Herr, das <w>hyn
+        <pc>-</pc><lb/>für</w><note type="annotation">in Zukunft.</note> Eur kainer soliche Smach und vergiffte Bücher,
+        <lb/>nach ander zedl oder abschrifften als die, so unserm hailigen
+        <lb/>Glauben Irrsal gepern Und dem, das die heyligen <w>Chri
+        <pc>-</pc><lb/>stenlich</w> kirch bißher gehalten hat, widerwertig sein, <w>Dar
+        <pc>-</pc><lb/>tzu</w> auch vheinds und schmachschrifften wider unsern <w>haili
+        <pc>-</pc><lb/>gen</w> vater Babst, Prelaten, Fürsten, hohe schulen und <w>der
+        <pc>-</pc><lb/>selben</w> Faculteten und ander Ersam personen und was <w>in
+        <pc>-</pc><lb/>haltet</w> das, so sich von den guten syten und der Heiligen <w>Rö
+        <pc>-</pc><lb/>mischen</w> kirchen abwendet, nit mer dichte, schreib, druck, <w>Ma
+
+        <pc>-</pc><lb/><pb n="C2r" facs="#bsb00056424_023"/><note type="annotation">Im Druck als C3r bezeichnet.</note>le</w>, verkauff, kauff noch heimlich oder offenlich behaltet<!-- sic --> noch
+        <lb/>auch nit drucken, abschreiben oder malen lasse noch das in
+        <lb/>kein ander weyse, wie ymmer erdacht werden mag, nit gestat,
+        <lb/>verhenge<note type="annotation">anordne.</note> noch verschaffe<note type="annotation">bewirke.</note>.<!-- Abstand --> Deßgleichen gepieten wir <w>ern
+        <pc>-</pc><lb/>stlich</w> bey angezaigten peenen<note type="annotation">strafen.</note> allen den, so zu der Justicy <w>ver
+        <pc>-</pc><lb/>ordent</w> und gesetzt sein, das sy alle yetzgemelte schrifften, <w>Bü
+        <pc>-</pc><lb/>cher</w>, zedl und malerey, so bißher gemacht sein und hynfür
+        <lb/>geschriben, gedrückt und gemalet werden, Sy seyen, wes sy
+        <lb/>wöllen, Wo man die findt durch das gantz <rs type="place" ref="#heiliges_roemisches_reich">heilig Reiche</rs>
+        <lb/>und unser Erblande, in krafft ditz unsers gebots von unsern
+        <lb/>wegen annemen, zerreissen und mit offenlichem Feür <w>verpren
+        <pc>-</pc><lb/>nen</w>.<!-- Abstand --> Auch der Dichter, Schreiber, drucker und Maler,
+        <lb/>auch verkauffer und kauffer solicher schentlichen schrifften,
+        <lb/>Bücher, zedeln und Malereyen, die darinn nach <w>verkün
+        <pc>-</pc><lb/>dung</w> unsers gegenwürtigen Keiserlichen gebots <w>verhar
+        <pc>-</pc><lb/>ren</w> oder deßhalben ichts<note type="annotation">etwas.</note> fürzenemen understeen, wo das <w>of
+        <pc>-</pc><lb/>fenbar</w> ist, leib, güter und gerechtigkeyten<note type="annotation">Rechte.</note>, wo ir die bekumen
+        <lb/>mügt, Annemet, Fahet<note type="annotation">beschlagnahmt.</note> und behaltet Und damit nach
+        <lb/>Eürm geffallen handelt; des sollet ir gut fueg und recht und
+        <lb/>damit wider nyemands gethan noch gehandelt haben
+        <lb/>noch yemands darumb weder inner- noch ausserhalb <w>Rech
+        <pc>-</pc><lb/>tens</w><note type="annotation">weder gerichtlich noch außergerichtlich.</note> zeantworten nit schuldig sein.<!-- Abstand --> Damit auch solichs <w>al
+        <pc>-</pc><lb/>les</w> und ander ursachen künfftiger irrsal abgesniten und
+        <lb/>die gifft der, so soliche schrifften dichten und machen ferrer
+        <lb/>nit außgeprait und die hochberümbte kunst der <w>Drucke
+        <pc>-</pc><lb/>rey</w> allein in guten und löblichen sachen gepraucht und <w>ge
+        <pc>-</pc><lb/>übt</w> werde, So haben wir weiter aus Kaiserlicher und <w>Kü
+        <pc>-</pc><lb/>nigklicher</w> oberkeit und Rechtem wissen, auch mit <w>ainhelli
+        <pc>-</pc><lb/>gem</w> Rat unser und des <rs type="place" ref="#heiliges_roemisches_reich">Reichs</rs> Churfursten, Fürsten
+        <lb/>unnd Stennde bey unser unnd des <rs type="place" ref="#heiliges_roemisches_reich">Reychs</rs> Acht und
+
+        <lb/><pb n="C2v" facs="#bsb00056424_024"/>Aberacht<note type="annotation">Vgl. <ref type="quelle" target="0108#acht">oben<ref type="print">, S. , Anm. </ref></ref>.</note> und andern vorberürten Peenen<note type="annotation">Strafen.</note> Geboten,</p>
+<p>
+        <lb/>Gebieten auch solichs wyssentlich in Crafft ditz unnsers
+        <lb/>Edicts, Das wir hiemit, für ayn unzerbrochenlich gesetze
+        <lb/>Zehalten, Erkennen, Das hynfüro<note type="annotation">in Zukunft.</note> keyn Buchtrucker
+        <lb/>oder yemands annder, Er sey wer oder wo Er wölle, in
+        <lb/>dem <rs type="place" ref="#heiliges_roemisches_reich">Hayligen Römischen Reyche</rs>, Auch in unsern <w>Erb
+        <pc>-</pc><lb/>Khünigreychen</w>, Fürstenthumben und Lannden, kayn
+        <lb/>Bücher noch ander schryfften, in den Etwas begriffen
+        <lb/>wirdet, das den Christenlichen Glauben wenig oder vil
+        <lb/>Anrüret, Zum Ersten druck<note type="annotation">in erster Auflage.</note> nit Drucke on wyssen und
+        <lb/>willen des Ordinarien desselben Orts oder seins <w>Substi
+        <pc>-</pc><lb/>tuten</w> unnd verordenten,<note type="annotation">Gemeint ist der Ortsbischof oder dessen zuständiger Vertreter.</note> mit zulassung der Facultet
+        <lb/>in der hayligen Geschrifft<note type="annotation">der theologischen Fakultät.</note> eyner der negstgelegnen <w>Uni
+        <pc>-</pc><lb/>versitet</w>.<!-- Abstand --> Aber ander Bücher, Sy seyen in <w>we
+        <pc>-</pc><lb/>licher</w> Facultet unnd begreyffen was sy wöllen, die sollen
+        <lb/>mit wyssen unnd willen des Ordinarien, und ausserhalb
+        <lb/>desselben kains wegs, Gedruckt, Verkaufft noch <w>zedru
+        <pc>-</pc><lb/>cken</w> oder zuverkauffen unnderstanden<note type="annotation">unternommen.</note>, Verschaffet<note type="annotation">angeordnet.</note> noch
+        <lb/>Gestatet werden in kayn weyse.<!-- Abstand --> Ob aber yemands,
+        <lb/>in was Wyrden, Stats<note type="annotation">Stellung.</note> oder Wesenns der were, Wider
+        <lb/>dise unnser Christennliche und Kayserliche Maynunng,
+        <lb/>Decret, Statut, Gesetz, Ordination unnd Gebot, die
+        <lb/>auch ganntz unnd unzerstörlich sollen gehalten werden,
+        <lb/>In ainem oder mer vorgeschriben Artickeln, so die <w>Ma
+        <pc>-</pc><lb/>teri</w> des <rs type="person" ref="#luther_martin">Luthers</rs> oder der Druckerey betreffen, In <w>Ei
+        <pc>-</pc><lb/>nichen</w> weg,<note type="annotation">auf irgendeine Weise.</note> wie Menschen Synn das erdencken möcht,
+        <lb/>Freventlich hanndelt und thete. Uber das wir solichs
+        <lb/>vernichten unnd Krafftlos machen. Wider die selben
+        <lb/>wellen wir, das mit den vorgeschryben Auch den Penen<note type="annotation">Strafen.</note>,
+        <lb/>In den Rechten eingeleibt<note type="annotation">beinhaltet.</note>, Unnd nach Formm unnd <w>ge
+
+        <pc>-</pc><lb/><pb n="C3r" facs="#bsb00056424_025"/>stalt</w> des Banns Unnd Kayserlichen Acht unnd <w>Aber
+        <pc>-</pc><lb/>acht</w><note type="annotation">Vgl. <ref type="quelle" target="0108#acht">oben<ref type="print">, S. , Anm. </ref></ref>.</note> Gehandelt, Procediert unnd fürgefaren werden
+        <lb/>solle.<!-- Abstand --> Darnach wysse sich Menigklich<note type="annotation">jedermann.</note> zurichten.</p></div>
+
+<div>
+<p>
+        <lb/>Und damit dem Allem volziehunng beschehe und <w>Glau
+        <pc>-</pc><lb/>ben</w> gegeben werde, So haben <rs type="person" ref="#karl_v">Wir</rs> disen Brief mit <w>un
+        <pc>-</pc><lb/>serm</w> Kayserlichen Innsigel Besigelt. Der gegeben ist
+        <lb/>Zu unnser unnd des hayligen Reichs Stat <rs type="place" ref="#worms">Wurmbs</rs>
+        <lb/>Am Achten tag des Monets May, Nach Christi <w>ge
+        <pc>-</pc><lb/>burt</w> Fünffzehenhundert unnd Im <w>Einundzweintzigi
+        <pc>-</pc><lb/>sten</w>, Unnserer Reiche des <rs type="place" ref="#heiliges_roemisches_reich">Römischen</rs> Im Andern<note type="annotation">zweiten.</note> und
+        <lb/>der Andern aller Im Sechsten Jaren.</p>
+
+<space dim="vertical"/>
+<p>
+        <lb/>Ad Mandatum domini
+        <lb/>Imperatoris proprium.       
+</p>
+
+</div>
+</div>
+                
+                
+
+</body><back><listBibl><bibl xml:id="fabisch_iserloh_dokumente_2"><!-- neu in EuReD -->
+                    <abbr><surname type="editor">Fabisch / Iserloh</surname>,
+                        Dokumente 2</abbr>
+                    <editor>
+                        <surname>Fabisch</surname>
+                        <forename>Peter</forename>
+                    </editor>
+                    <editor>
+                        <surname>Iserloh</surname>
+                        <forename>Ernst</forename>
+                    </editor>
+                    <title>Dokumente zur Causa Lutheri (1517-1521), Bd. 2</title>
+                    <pubPlace>Münster</pubPlace>
+                    <date>1991</date>
+                    <series><ref type="abbr" target="#ccath">CCath</ref> 42</series>
+                </bibl><bibl xml:id="drta_jr_2">
+                    <abbr>DRTA.JR 2</abbr>
+                    <editor>
+                        <surname>Wrede</surname>
+                        <forename>Adolf</forename>
+                    </editor>
+                    <title><ref target="#drta_jr" type="abbr">DRTA.JR</ref>: Deutsche
+                        Reichstagsakten unter Kaiser Karl V., Bd. 2</title>
+                    <pubPlace>Gotha</pubPlace>
+                    <date>1896</date>
+                    <ptr type="digitalisat" target="https://archive.org/details/deutschereichst07kommgoog"/>
+                </bibl><bibl xml:id="mueller_nuntiaturen"><!-- neu in EuReD -->
+                    <abbr><surname type="author">Müller</surname>, Nuntiaturen</abbr>
+                    <author>
+                        <surname>Müller</surname>
+                        <forename>Gerhard</forename>
+                    </author>
+                    <title>Die drei Nuntiaturen Aleanders in Deutschland 1520/21, 1531/32,
+                        1538/39</title>
+                    <bibl>
+                        <title><ref type="abbr" target="#qfiab">QFIAB</ref> 39</title>
+                        <date>(1959)</date>
+                    </bibl>
+                    <biblScope>S. 222-276</biblScope>
+                </bibl><bibl xml:id="jongh_louvain">
+                    <abbr><surname type="author">Jongh</surname>, Louvain</abbr>
+                    <author>
+                        <surname>Jongh</surname>
+                        <forename>Henri</forename>
+                        <nameLink>de</nameLink>
+                    </author>
+                    <title>L'ancienne faculté de théologie de Louvain au premier siècle de son
+                        existence (1432-1540). Ses débuts, son organization, son enseignement, sa
+                        lutte contre Érasme et Luther, avec des documents inédits</title>
+                    <pubPlace>Louvain</pubPlace>
+                    <date>1911</date>
+                </bibl><bibl xml:id="weber_reichsacht"><!-- neu in EuReD -->
+                    <abbr><surname type="author">Weber</surname>, Reichsacht</abbr>
+                    <author>
+                        <surname>Weber</surname>
+                        <forename>Matthias</forename>
+                    </author>
+                    <title>Zur Bedeutung der Reichsacht in der Frühen Neuzeit</title>
+                    <bibl>
+                        <editor>
+                            <surname>Kunisch</surname>
+                            <forename>Johannes</forename>
+                        </editor>
+                        <title>Neue Studien zur frühneuzeitlichen Reichsgeschichte</title>
+                        <series><ref target="#zhfb" type="abbr">ZHF.B</ref> 19</series>
+                    </bibl>
+                    <biblScope>S. 55-90</biblScope>
+                </bibl><bibl xml:id="brandmueller_konstanz"><!-- neu in EuReD -->
+                    <abbr><surname type="author">Brandmüller</surname>, Konstanz</abbr>
+                    <author>
+                        <surname>Brandmüller</surname>
+                        <forename>Walter</forename>
+                    </author>
+                    <title>Das Konzil von Konstanz 1414-1418, 2 Bde.</title>
+                    <pubPlace>Paderborn</pubPlace>
+                    <date>1991-1998</date>
+                    <series>Konziliengeschichte Reihe A: Darstellungen<!-- Band 1.1-2? --></series>
+                </bibl><bibl xml:id="spehr_konzil"><!-- neu in EuReD -->
+                    <abbr><surname type="author">Spehr</surname>, Konzil</abbr>
+                    <author>
+                        <surname>Spehr</surname>
+                        <forename>Christopher</forename>
+                    </author>
+                    <title>Luther und das Konzil</title>
+                    <pubPlace>Tübingen</pubPlace>
+                    <date>2010</date>
+                    <series><ref type="abbr" target="#bhth">BHTh</ref> 153</series>
+                </bibl><bibl xml:id="wa_7"><!-- neu in EuReD -->
+                    <abbr>WA 7</abbr>
+                    <author>
+                        <surname>Luther</surname>
+                        <forename>Martin</forename>
+                    </author>
+                    <title>D. Martin Luthers Werke. Kritische Gesammtausgabe, Abt. 1: Schriften,
+                        Bd. 7: Schriften der Jahre 1520 / 1521</title>
+                    <pubPlace>Weimar</pubPlace>
+                    <date>1897</date>
+                </bibl><bibl xml:id="lieberwirth_majestaetsverbrechen"><!-- neu in EuReD -->
+                    <abbr><surname type="author">Lieberwirth</surname>, Majestätsverbrechen</abbr>
+                    <author>
+                        <surname>Lieberwirth</surname>
+                        <forename>Rolf</forename>
+                    </author>
+                    <title>Majestätsverbrechen</title>
+                    <bibl>
+                        <title>Handwörterbuch zur deutschen Rechtsgeschichte, 2. Aufl.,
+                            Bd. 3</title>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>2016</date>
+                    </bibl>
+                    <biblScope>Sp. 1194-1201</biblScope>
+                </bibl><bibl xml:id="battenberg_acht"><!-- neu in EuReD -->
+                    <abbr><surname type="author">Battenberg</surname>, Acht</abbr>
+                    <author>
+                        <surname>Battenberg</surname>
+                        <forename>Friedrich</forename>
+                    </author>
+                    <title>Acht</title>
+                    <bibl>
+                        <title>Handwörterbuch zur deutschen Rechtsgeschichte, 2. Aufl.,
+                            Bd. 1</title>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>2008</date>
+                    </bibl>
+                    <biblScope>Sp. 59-65</biblScope>
+                </bibl><bibl xml:id="drw_1"><!-- neu in EuReD -->
+                    <abbr>DRW 1</abbr>
+                    <title><ref target="#drw" type="abbr">DRW</ref>, Bd. 1</title>
+                    <pubPlace>Weimar</pubPlace>
+                    <date>1914-1932</date>
+                    <ptr type="digitalisat" target="http://drw-www.adw.uni-heidelberg.de/drw/"/>
+                </bibl></listBibl><list xml:id="abbr"><item xml:id="bhth">
+<abbr>BHTh</abbr>
+<expan>Beiträge zur historischen Theologie</expan>
+</item><item xml:id="ccath"><!-- neu in EuReD -->
+<abbr>CCath</abbr>
+<expan>Corpus Catholicorum</expan>
+</item><item xml:id="drta_jr">
+<abbr>DRTA.JR</abbr>
+<expan>Deutsche Reichstagsakten. Jüngere Reihe</expan>
+</item><item xml:id="drw">
+<abbr>DRW</abbr>
+<expan>Deutsches Rechtswörterbuch. Wörterbuch der älteren deutschen Rechtssprache</expan>
+</item><item xml:id="qfiab">
+<abbr>QFIAB</abbr>
+<expan>Quellen und Forschungen aus italienischen Archiven und Bibliotheken</expan>
+</item><item xml:id="zhfb">
+<abbr>ZHF.B</abbr>
+<expan>Zeitschrift für Historische Forschung. Beiheft</expan>
+</item></list></back>
+</text>
+</tei:TEI>
